@@ -28,7 +28,7 @@ class PageController
         return (new Template("page.html"))
             ->data([
                 'base' => URL . URL_DIR,
-                'title' => ($this->page == "home" ? "" : $pages[$this->page] . " | ") . "Certification",
+                'title' => ($this->page == "home" ? "" : $pages[$this->page] . " | ") . "Digital Signature",
                 'nav' => $nav,
                 'content' => file_get_contents(DATA_DIR . "$this->page.html")
             ])
