@@ -54,3 +54,5 @@ if ($conn->query($sql) === TRUE) {
 }
 
 echo "<br />";
+
+echo "test";
